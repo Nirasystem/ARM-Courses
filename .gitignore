@@ -1,6 +1,10 @@
+*.map
+*.hex
 *.d
 *.o
 Videos
-*.7z
 *.uvguix.*
-
+*.pptx
+# Ignore build dependencies
+Sections/**/*.7z
+Sections/*/Examples/*/MDK-ARM/*/
