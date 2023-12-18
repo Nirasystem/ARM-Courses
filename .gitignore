@@ -11,3 +11,4 @@ Tools
 Sections/**/*.7z
 Sections/*/Examples/*/MDK-ARM/*/
 Sections/*/Examples/*/Drivers
+Sections/*/Examples/*/Libs
