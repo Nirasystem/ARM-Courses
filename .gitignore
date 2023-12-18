@@ -6,6 +6,7 @@ Videos
 Tools
 *.uvguix.*
 *.pptx
+*.yuml
 # Ignore build dependencies
 Sections/**/*.7z
 Sections/*/Examples/*/MDK-ARM/*/
