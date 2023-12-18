@@ -13,12 +13,12 @@ def find_and_replace(directory):
 def replace_lines(file_path):
     # Specify the lines to be replaced and their replacements
     replacements = [
-        ("<IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include",
-         "<IncludePath>../Core/Inc;../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Inc;../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../../../../../STM32F4Drivers/CMSIS/Device/ST/STM32F4xx/Include;../../../../../STM32F4Drivers/CMSIS/Include"),
-        ("../Drivers/STM32F4xx_HAL_Driver/Src/",
-         "../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Src/"),
-        ("../Drivers/STM32F4xx_HAL_Driver/Src/Legacy/",
-         "../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Src/Legacy/")
+        ("../Drivers/",
+         "../../../../../STM32F4Drivers/"),
+        ("../Libs/",
+         "../../../../../Libs/"),
+        ("..\\Libs\\",
+         "../../../../../Libs/")
     ]
 
     # Use fileinput to replace the lines in the file
