@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Inc;../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../../../../../STM32F4Drivers/CMSIS/Device/ST/STM32F4xx/Include;../../../../../STM32F4Drivers/CMSIS/Include;..\Libs\ALCD\Src</IncludePath>
+              <IncludePath>../Core/Inc;../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Inc;../../../../../STM32F4Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../../../../../STM32F4Drivers/CMSIS/Device/ST/STM32F4xx/Include;../../../../../STM32F4Drivers/CMSIS/Include;../../../../../Libs/ALCD\Src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -532,7 +532,7 @@
             <File>
               <FileName>ALCD.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libs\ALCD\Src\ALCD.c</FilePath>
+              <FilePath>../../../../../Libs/ALCD\Src\ALCD.c</FilePath>
             </File>
           </Files>
         </Group>
