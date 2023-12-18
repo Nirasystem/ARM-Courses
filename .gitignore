@@ -3,6 +3,7 @@
 *.d
 *.o
 Videos
+Tools
 *.uvguix.*
 *.pptx
 # Ignore build dependencies
