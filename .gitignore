@@ -9,3 +9,4 @@ Tools
 # Ignore build dependencies
 Sections/**/*.7z
 Sections/*/Examples/*/MDK-ARM/*/
+Sections/*/Examples/*/Drivers
