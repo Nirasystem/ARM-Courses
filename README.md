@@ -69,10 +69,10 @@ This repository contains examples and documents of Nirasystem ARM courses.
 - [X] [Introduction](Sections/ADC/Docs/ADC%20Introduction.pdf)
 - [X] [Introduction - Manual](Docs/STM32F4x%20Refrence%20Manual.pdf#page=388)
 - **Examples**
-  - [X] ADC-Polling
-  - [X] ADC-IT
-  - [X] ADC-IT-Overlap
-  - [X] ADC-DMA
+  - [X] [ADC-Polling](Sections/ADC/Examples/ADC-Polling)
+  - [X] [ADC-IT](Sections/ADC/Examples/ADC-IT)
+  - [X] [ADC-IT-Overlap](Sections/ADC/Examples/ADC-IT-Overlap)
+  - [X] [ADC-DMA](Sections/ADC/Examples/ADC-DMA)
 
 ### Communications
 
@@ -87,19 +87,19 @@ This repository contains examples and documents of Nirasystem ARM courses.
 - [X] [Buffering](Sections/UART/Docs/Buffering.pdf)
 - [X] [Framing](Sections/UART/Docs/Framing.pdf)
 - **Examples**
-  - [X] UART-Echo
-  - [X] UART-Echo-IT
-  - [X] UART-Echo-DMA
-  - [X] UART-ReadLine-SingleBuffer
-  - [X] UART-ReadLine-SingleBuffer-Advance
-  - [X] UART-ReadLine-MultiBuffer
-  - [X] UART-ReadLine-MultiBuffer-Advance
-  - [X] UART-ReadLine-CircularBuffer
-  - [X] UART-Logger-MultiBuffer
-  - [X] UART-Logger-MultiBuffer-Advance
-  - [X] UART-Logger-MultiBuffer-Advance-Fix
-  - [X] UART-Logger-CircularBuffer
-  - [X] UART-BinaryFrame
+  - [X] [UART-Echo](Sections/UART/Examples/UART-Echo)
+  - [X] [UART-Echo-IT](Sections/UART/Examples/UART-Echo-IT)
+  - [X] [UART-Echo-DMA](Sections/UART/Examples/UART-Echo-DMA)
+  - [X] [UART-ReadLine-SingleBuffer](Sections/UART/Examples/UART-ReadLine-SingleBuffer)
+  - [X] [UART-ReadLine-SingleBuffer-Advance](Sections/UART/Examples/UART-ReadLine-SingleBuffer-Advance)
+  - [X] [UART-ReadLine-MultiBuffer](Sections/UART/Examples/UART-ReadLine-MultiBuffer)
+  - [X] [UART-ReadLine-MultiBuffer-Advance](Sections/UART/Examples/UART-ReadLine-MultiBuffer-Advance)
+  - [X] [UART-ReadLine-CircularBuffer](Sections/UART/Examples/UART-ReadLine-CircularBuffer)
+  - [X] [UART-Logger-MultiBuffer](Sections/UART/Examples/UART-Logger-MultiBuffer)
+  - [X] [UART-Logger-MultiBuffer-Advance](Sections/UART/Examples/UART-Logger-MultiBuffer-Advance)
+  - [X] [UART-Logger-MultiBuffer-Advance-Fix](Sections/UART/Examples/UART-Logger-MultiBuffer-Advance-Fix)
+  - [X] [UART-Logger-CircularBuffer](Sections/UART/Examples/UART-Logger-CircularBuffer)
+  - [X] [UART-BinaryFrame](Sections/UART/Examples/UART-BinaryFrame)
 
 ---
 
@@ -107,23 +107,23 @@ This repository contains examples and documents of Nirasystem ARM courses.
 
 ### GPS Module (u-Blox Neo-6)
 
-- [X] [Introduction](Sections/GPS%20Module/Docs/GPS%20Module%20Introduction.pdf)
-- [X] [Introduction-Manual](Sections/GPS%20Module/Docs/NEO-6_DataSheet_(GPS.G6-HW-09005)_2.pdf)
-- [X] [NMEA Introduction](Sections/GPS%20Module/Docs/NMEA%20Reference%20Manual-Rev2.1-Dec07.pdf)
-- [X] [Data Overview](Sections/GPS%20Module/Docs/GPS%20Sample.txt)
+- [X] [Introduction](Sections/GPS-Module/Docs/GPS%20Module%20Introduction.pdf)
+- [X] [Introduction-Manual](Sections/GPS-Module/Docs/NEO-6_DataSheet_(GPS.G6-HW-09005)_2.pdf)
+- [X] [NMEA Introduction](Sections/GPS-Module/Docs/NMEA%20Reference%20Manual-Rev2.1-Dec07.pdf)
+- [X] [Data Overview](Sections/GPS-Module/Docs/GPS%20Sample.txt)
 - **Examples**
-  - [X] [GPS-DateTime](Sections/GPS%20Module/Examples/GPS-DateTime/)
-  - [X] [GPS-DateTime-Advance](Sections/GPS%20Module/Examples/GPS-DateTime-Advance/)
+  - [X] [GPS-DateTime](Sections/GPS-Module/Examples/GPS-DateTime/)
+  - [X] [GPS-DateTime-Advance](Sections/GPS-Module/Examples/GPS-DateTime-Advance/)
 
 ### GSM Module (SIM800)
 
-- [X] [Introduction](Sections/GSM%20Module/Docs/GSM%20Introduction.pdf)
-- [X] [Introduction-Manual](Sections/GSM%20Module/Docs/SIM800_Hardware%20Design_V1.09.pdf)
-- [X] [AT Commands Introduction](Sections/GSM%20Module/Docs/AT%20Commands%20Introduction.pdf)
+- [X] [Introduction](Sections/GSM-Module/Docs/GSM%20Introduction.pdf)
+- [X] [Introduction-Manual](Sections/GSM-Module/Docs/SIM800_Hardware%20Design_V1.09.pdf)
+- [X] [AT Commands Introduction](Sections/GSM-Module/Docs/AT%20Commands%20Introduction.pdf)
 - **Examples**
-  - [X] [GSM-SendSMS](Sections/GSM%20Module/Examples/GSM-SendSMS/)
-  - [X] [GSM-ReceiveSMS](Sections/GSM%20Module/Examples/GSM-ReceiveSMS/)
-  - [X] [GSM-Advance](Sections/GSM%20Module/Examples/GSM-Advance/)
+  - [X] [GSM-SendSMS](Sections/GSM-Module/Examples/GSM-SendSMS/)
+  - [X] [GSM-ReceiveSMS](Sections/GSM-Module/Examples/GSM-ReceiveSMS/)
+  - [X] [GSM-Advance](Sections/GSM-Module/Examples/GSM-Advance/)
 
 ### I2C
 
@@ -164,6 +164,7 @@ This repository contains examples and documents of Nirasystem ARM courses.
 
 #### Digital Pot (MCP4131)
 
+- [X] [Introduction](Sections/Digital-Pot/Docs/Digital%20Pot%20Introduction.pdf)
 - [X] [Introduction Manual](Sections/MCP4131/Docs/MCP413x%20Datasheet.pdf)
 - **Examples**
   - [X] [MCP-Example](Sections/MCP4131/Examples/MCP4131-Example/)
@@ -195,9 +196,9 @@ This repository contains examples and documents of Nirasystem ARM courses.
 
 - [X] [Introduction-Manual](Docs/STM32F4x%20Refrence%20Manual.pdf#page=119)
 - **Examples**
-  - [X] [BKPSRAM-Simple](Sections/Backup%20SRAM/Examples/BKPSRAM-Simple/)
-  - [X] [BKPSRAM-ResetCount](Sections/Backup%20SRAM/Examples/BKPSRAM-ResetCount/)
-  - [X] [BKPSRAM-Database](Sections/Backup%20SRAM/Examples/BKPSRAM-Database/)
+  - [X] [BKPSRAM-Simple](Sections/Backup-SRAM/Examples/BKPSRAM-Simple/)
+  - [X] [BKPSRAM-ResetCount](Sections/Backup-SRAM/Examples/BKPSRAM-ResetCount/)
+  - [X] [BKPSRAM-Database](Sections/Backup-SRAM/Examples/BKPSRAM-Database/)
 
 ### IWDG (Independent Watchdog)
 
@@ -223,19 +224,19 @@ This repository contains examples and documents of Nirasystem ARM courses.
 
 ### Power Modes
 
-- [X] [Introduction](Sections/Power%20Modes/Docs/Power%20Modes%20Introduction.pdf)
-- [X] [Introduction - Manual](Sections/Power%20Modes/Docs/STM32F4%20Power%20Modes%20Application%20Note.pdf)
+- [X] [Introduction](Sections/Power-Modes/Docs/Power%20Modes%20Introduction.pdf)
+- [X] [Introduction - Manual](Sections/Power-Modes/Docs/STM32F4%20Power%20Modes%20Application%20Note.pdf)
 - [X] STM32CubeMX - Tools 
 - **Examples**
-  - [X] [PowerModes-Sleep](Sections/Power%20Modes/Examples/PowerModes-Sleep/)
-  - [X] [PowerModes-Sleep-UART-DMA](Sections/Power%20Modes/Examples/PowerModes-Sleep-UART-DMA/)
-  - [X] [PowerModes-Stop](Sections/Power%20Modes/Examples/PowerModes-Stop/)
-  - [X] [PowerModes-StandBy](Sections/Power%20Modes/Examples/PowerModes-StandBy/)
+  - [X] [PowerModes-Sleep](Sections/Power-Modes/Examples/PowerModes-Sleep/)
+  - [X] [PowerModes-Sleep-UART-DMA](Sections/Power-Modes/Examples/PowerModes-Sleep-UART-DMA/)
+  - [X] [PowerModes-Stop](Sections/Power-Modes/Examples/PowerModes-Stop/)
+  - [X] [PowerModes-StandBy](Sections/Power-Modes/Examples/PowerModes-StandBy/)
 
 ### Hard Fault
 
 - [X] [Introduction](Docs/ARM%20Cortex-M%20Device%20Generic%20User%20Manaual.pdf)
 - **Examples**
-  - [X] [HardFault-Example](Sections/Hard%20Fault/Examples/Hard%20Fault-Example/)
-  - [X] [HardFault-BKPSRAM](Sections/Hard%20Fault/Examples/HardFault-BKPSRAM/)
-  - [X] [HardFault-Cause](Sections/Hard%20Fault/Examples/HardFault-Cause/)
+  - [X] [HardFault-Example](Sections/Hard-Fault/Examples/Hard%20Fault-Example/)
+  - [X] [HardFault-BKPSRAM](Sections/Hard-Fault/Examples/HardFault-BKPSRAM/)
+  - [X] [HardFault-Cause](Sections/Hard-Fault/Examples/HardFault-Cause/)
