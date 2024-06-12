@@ -7,6 +7,9 @@ Tools
 *.uvguix.*
 *.pptx
 *.yuml
+*.scvd
+*.one
+*.onetoc2
 # Ignore build dependencies
 Sections/**/*.7z
 Sections/*/Examples/*/MDK-ARM/*/
