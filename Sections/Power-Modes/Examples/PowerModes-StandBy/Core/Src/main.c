@@ -109,7 +109,7 @@ int main(void)
     }
     
     if (*standByFlag != STAND_BY_FLAG && enterStandByTime <= HAL_GetTick()) {
-      *standByFlag = STAND_BY_FLAG;
+      //*standByFlag = STAND_BY_FLAG;
       enterStandBy();
     }
     

@@ -224,7 +224,7 @@ void EE_writeBytes(I2C_HandleTypeDef* hi2c, uint16_t addr, uint8_t* data, uint16
   }
 }
 void EE_readBytes(I2C_HandleTypeDef* hi2c, uint16_t addr, uint8_t* data, uint16_t len) {
-  HAL_I2C_Mem_Read(hi2c, EE_DEV_ADDR, addr, I2C_MEMADD_SIZE_16BIT, data, len, 1000);
+  -HAL_I2C_Mem_Read(hi2c, EE_DEV_ADDR, addr, I2C_MEMADD_SIZE_16BIT, data, len, 1000);
 }
 
 /* USER CODE END 4 */

@@ -105,11 +105,11 @@ void SystemClock_Config(void);
 uint8_t RTC_isRunning(void);
 
 HAL_StatusTypeDef RTC_setTime(DS1307_Time* v);
-HAL_StatusTypeDef RTC_setDate(DS1307_Time* v);
+HAL_StatusTypeDef RTC_setDate(DS1307_Date* v);
 HAL_StatusTypeDef RTC_setDateTime(DS1307_DateTime* v);
 
 HAL_StatusTypeDef RTC_getTime(DS1307_Time* v);
-HAL_StatusTypeDef RTC_getDate(DS1307_Time* v);
+HAL_StatusTypeDef RTC_getDate(DS1307_Date* v);
 HAL_StatusTypeDef RTC_getDateTime(DS1307_DateTime* v);
 
 void bcdToBin(uint8_t* dst, uint8_t* src, uint16_t len);
@@ -243,7 +243,7 @@ HAL_StatusTypeDef RTC_setTime(DS1307_Time* v) {
   binToBcd((uint8_t*) &buf, (uint8_t*) v, sizeof(buf));
   return HAL_I2C_Mem_Write(&hi2c1, DS1307_DEV_ADDR, DS1307_ADDR_TIME, I2C_MEMADD_SIZE_8BIT, (uint8_t*) &buf, sizeof(buf), 1000);
 }
-HAL_StatusTypeDef RTC_setDate(DS1307_Time* v) {
+HAL_StatusTypeDef RTC_setDate(DS1307_Date* v) {
   DS1307_Date buf;
   binToBcd((uint8_t*) &buf, (uint8_t*) v, sizeof(buf));
   return HAL_I2C_Mem_Write(&hi2c1, DS1307_DEV_ADDR, DS1307_ADDR_DATE, I2C_MEMADD_SIZE_8BIT, (uint8_t*) &buf, sizeof(buf), 1000);
@@ -262,7 +262,7 @@ HAL_StatusTypeDef RTC_getTime(DS1307_Time* v) {
   }
   return result;
 }
-HAL_StatusTypeDef RTC_getDate(DS1307_Time* v) {
+HAL_StatusTypeDef RTC_getDate(DS1307_Date* v) {
   HAL_StatusTypeDef result;
   result = HAL_I2C_Mem_Read(&hi2c1, DS1307_DEV_ADDR, DS1307_ADDR_DATE, I2C_MEMADD_SIZE_8BIT, (uint8_t*) v, sizeof(*v), 1000);
   if (result == HAL_OK) {

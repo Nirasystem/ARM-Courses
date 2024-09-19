@@ -56,12 +56,12 @@ void doWork1(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void HAL_Delay(uint32_t Delay)
+/*void HAL_Delay(uint32_t Delay)
 {
   uint32_t tickstart = HAL_GetTick();
   uint32_t wait = Delay;
 
-  /* Add a freq to guarantee minimum wait */
+  // Add a freq to guarantee minimum wait 
   if (wait < HAL_MAX_DELAY)
   {
     wait += (uint32_t)(uwTickFreq);
@@ -71,7 +71,7 @@ void HAL_Delay(uint32_t Delay)
   {
     HAL_IWDG_Refresh(&hiwdg);
   }
-}
+}*/
 /* USER CODE END 0 */
 
 /**
@@ -177,10 +177,10 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 void doWork0(void) {
-  HAL_Delay(2500);
+  HAL_Delay(2000);
 }
 void doWork1(void) {
-  HAL_Delay(2500);
+  HAL_Delay(2005);
 }
 /* USER CODE END 4 */
 

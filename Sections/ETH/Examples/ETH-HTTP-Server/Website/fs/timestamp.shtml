@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<meta http-equiv="refresh" content="1">
+<html>
+<head>
+    <title>My SHTML Template</title>
+</head>
+<body>
+    <h1>Welcome to my SHTML Template!</h1>    
+    <p>Current Timestamp: <!--#ts--></p>
+</body>
+</html>

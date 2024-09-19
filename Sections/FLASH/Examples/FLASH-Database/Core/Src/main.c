@@ -131,7 +131,7 @@ int main(void)
     Database_setDefault();
   }    
   
-  Database_increaseResetCounter();
+  //Database_increaseResetCounter();
   
   /* USER CODE END 2 */
 
